@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f2f2f2;
 }
 
 .header {
@@ -17,16 +16,17 @@
   border:solid red 2px;
   display:flex;
   position: relative;
+  background-color: #f2f2f2;
   /* parameters for the header section */
 }
-
+/* header elements */
 .header__title{
   width: 730px;
   margin: 0 0 0 64px;
   border:solid red 2px;
   align-self: center;
   position: absolute;
-  z-index: 3; 
+  z-index: 3;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -40,7 +40,7 @@
   bottom: 30px;
   left: 64px;
   white-space: pre-line;
-  z-index: 3; 
+  z-index: 3;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -58,7 +58,7 @@
   right: 0;
   max-width: 765px;
   max-height: 608px;
-  z-index: 2; 
+  z-index: 2;
 }
 
 .header__square-pic{
@@ -69,12 +69,14 @@
   max-width: 568px;
   max-height: 568px;
   background-color: #2f80ed;
-  z-index: 1; 
+  z-index: 1;
 }
+
 
 .logo{
   background-size:contain;
   background-repeat: no-repeat;
+  /* logo block it can be used anywhere */
 }
 
 .logo_place_header{
@@ -83,10 +85,62 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 4; 
+  z-index: 4;
+  /* paramaters to place logo block in header */
+  }
+.content{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.description{
+  border:solid rgb(17, 0, 255) 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns{
+  border:solid rgb(0, 255, 13) 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief{
+  border:solid red 2px;
+  width: 175px;
+  margin:0;
+  line-height: 1,2px;
+  font-size: 18px;
+  font-weight:normal;
+  color:#2f80ed;
+
+}
+.two-columns__main-text{
+  border:solid red 2px;
+  width: 80%;
+  min-width: 784px;
+  display:flex;
+  flex-direction:column;
   }
 
+.two-columns__paragraph{
+    border:solid rgb(255, 238, 0) 2px;
+    margin: 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight:normal;
+  }
+.two-columns__paragraph_margins{
+  margin:30px 0;
+}
 
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight:bold
+}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
