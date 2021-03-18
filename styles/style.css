@@ -307,7 +307,6 @@ padding:0;
 
 .footer__column{
   display: flex;
-  width: 90%;
   justify-content: space-between;
 }
 
@@ -334,7 +333,6 @@ padding:0;
 .footer__column_content_info{
   display: flex;
   flex-direction: column;
-  width: fit-content;
   justify-content: flex-start;
   }
 
@@ -360,12 +358,11 @@ padding:0;
   font-size: 18px;
   font-weight:normal;
   text-decoration:none;
-}
+ }
 
 .footer__column_content_social{
   display: flex;
   flex-direction: column;
-  width: fit-content;
   justify-content: flex-start;
 
 }
