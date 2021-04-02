@@ -27,11 +27,13 @@
   @import url("./blocks/table/__text/_theme/table__text_theme_dark.css");
 @import url("./blocks/feynman/feynman.css");
 @import url("./blocks/kaufman/kaufman.css");
+@import url("./blocks/resources/resources.css");
 @import url("./blocks/footer/footer.css");
   @import url("./blocks/footer/__column/_content/footer__column_content_copyright.css");
   @import url("./blocks/footer/__column/_content/footer__column_content_info.css");
   @import url("./blocks/footer/__column/_content/footer__column_content_social.css");
 @import url("./blocks/rotation/rotation.css");
+@import url("./blocks/transparent/transparent.css");
 
 
 
