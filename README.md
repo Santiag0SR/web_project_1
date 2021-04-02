@@ -6,7 +6,7 @@
 
 The purpose of this project is to create a website.
 
-![](https://github.com/Santiag0SR/web_project_1/blob/e6ca841cdaac74c3d029377dabaaa550c94d97b2/images/Web_project_1_git_example.gif)
+![](https://github.com/Santiag0SR/web_project_1/blob/968eb319ffd4000b24390f778ff10b156cc46c8a/images/gif_web_example_for_README.gif)
 
 ## Technologies and Techniques
 
