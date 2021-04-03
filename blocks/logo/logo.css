@@ -1,9 +1,6 @@
-@import url("./_place/logo_place_header.css");
-@import url("./_place/logo_place_footer.css");
-
-.logo{
-  background-size:contain;
-  background-repeat: no-repeat;
-  z-index: 4;
-  /* logo block it can be used anywhere */
+.logo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4;
+    /* logo block it can be used anywhere */
 }

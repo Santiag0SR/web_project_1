@@ -1,11 +1,13 @@
-.header__subtitle{
-  max-width: 388px;
-  position:absolute;
-  bottom: 30px;
-  left: 64px;
-  white-space: pre-line;
-  z-index: 3;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
+.header__subtitle {
+    max-width: 388px;
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    white-space: pre-line;
+    z-index: 3;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
