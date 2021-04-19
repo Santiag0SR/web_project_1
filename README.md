@@ -8,6 +8,8 @@ The purpose of this project is to create a website.
 
 ![](https://github.com/Santiag0SR/web_project_1/blob/968eb319ffd4000b24390f778ff10b156cc46c8a/images/gif_web_example_for_README.gif)
 
+Check out my work: https://santiag0sr.github.io/web_project_1/index.html
+
 ## Technologies and Techniques
 
 We used CSS and HTML language to create the webpage, we learn the basics to start using this two languages:
